@@ -1,10 +1,7 @@
-package Google_APAC;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class Practice3 {
-
 	public static void main(String[] args) throws Exception{
 		BufferedReader bf=new BufferedReader(new InputStreamReader(System.in));
 		int tc=Integer.parseInt(bf.readLine());
@@ -23,7 +20,5 @@ public class Practice3 {
 			}
 			System.out.println("Case #"+p+": "+ans);p++;
 		}
-
 	}
-
 }
