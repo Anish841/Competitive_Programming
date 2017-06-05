@@ -15,6 +15,8 @@ public class MH3{
 				output[count[str[i][cindex]-97]-1] = str[i][cindex];
 				--count[str[i][cindex]-97];
 			}
+
+			//adding
 		 	for (i = 0; i<n; ++i)
 				str[i][cindex] = output[i];
 		}
